@@ -5,7 +5,7 @@ int n1 = int.Parse(Console.ReadLine()!);
 Console.WriteLine("Введите размер второй матрицы");
 int m2 = int.Parse(Console.ReadLine()!);
 int n2 = int.Parse(Console.ReadLine()!);
-if(n1 != m2){Console.WriteLine("Данные матрицы не возможно пермножить");}
+if(n1 != m2){Console.WriteLine("Данные матрицы не возможно перемножить");}
 else 
 {
     int[,] arr1 = GetArray(m1, n1);
